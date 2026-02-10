@@ -92,7 +92,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Analysis1](Analysis1.png)
+![Analysis1](images/Analysis1.png)
 
 1.Default Ratio
 
@@ -146,7 +146,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Analysis2](Analysis2.png)
+![Analysis2](images/Analysis2.png)
 
 1.Default Rate by Age Group
 
@@ -186,7 +186,7 @@ ax2.set_ylim(0, loan_grade_ratio['default_rate'].max() * 1.15)
 plt.show()
 ```
 
-![Analysis3](Analysis3.png)
+![Analysis3](images/Analysis3.png)
 
 1.DTI Ratio across Loan Grades
 
@@ -208,7 +208,7 @@ plt.xticks(np.arange(0, 0.9, 0.1))
 plt.show()
 ```
 
-![Analysis4](Analysis4.png)
+![Analysis4](images/Analysis4.png)
 
 The DTI distribution reveals a clear Decision Boundary at approximately 0.32. Beyond this intersection point, the probability density of default (green curve) surpasses that of non-default (blue curve). This indicates that a DTI ratio exceeding 32% is a strong predictor of credit risk, serving as an optimal threshold for loan approval criteria
 
@@ -296,5 +296,5 @@ model.predict(new_user)
 
 **This is how the prediction results look**
 
-![Analysis5](Analysis5.png)
+![Analysis5](images/Analysis5.png)
 
